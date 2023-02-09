@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBEEF5;
+}
+.login-form{
+  width: 350px;
+  height: 600px;
+  background-color: #EBEEF5;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px #ced4d9,-10px -10px 15px white;
+  padding: 50px 35px 35px 35px;
+}
+.logo{
+  background: url('image/youtube.png');
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px #ced4d9,10px 10px 15px #d3cfcf,-10px -10px 15px #ffffff;
+
+}
+.login-form h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #b3b1b1;
+}
+.login-form h2{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #adabab;
+}
+form{
+  margin-top: 50px;
+}
+input{
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  /* border-radius: 15px; */
+  background-color: transparent;
+}
+
+.email,.password{
+  margin: 20px 0px;
+  box-shadow: inset 6px 6px 10px #ced4d9,inset -6px -6px 10px #fff;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  padding-left: 15px;
+  
+}
+input::placeholder{
+  font-size: 15px;
+  color: #949494;
+  font-weight: bold;
+}
+i{
+  font-size: 20px;
+  color: #858484;
+  width: 15px;
+  height: 100%;
+  margin-top: 13px;
+}
+button{
+  width: 100%;
+  height: 45px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  margin-top: 15px;
+  border: none;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+  
+  
+}
+button:hover{
+  background-color: turquoise;
+  color: white;
+  cursor: pointer;
+}
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+
